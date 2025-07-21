@@ -252,6 +252,7 @@ p {
 }
 
 .nosotros__galeria {
+    position: relative;
     grid-template-columns: 1fr 1fr;
     gap: 20px 20px;
     padding: 0 25px;
@@ -260,6 +261,7 @@ p {
 .nosotros__galeria img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .nosotros__icono-llamada {
@@ -268,6 +270,22 @@ p {
     height: 50px;
     border-radius: 50%;
     padding: 10px;
+}
+
+.nosotros__galeria a::before {
+  content: "+";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 18px;
+  pointer-events: none;
+  /* top: 142px; */
+  /* left: 169px; */
 }
 
 

@@ -171,4 +171,111 @@ p {
 .propuestas__header figure img {
    width: 80%;
 }
- 
+
+.propuestas-container {
+    margin-top: 40px;
+    text-align: center;
+    /* gap: 50px; */
+}
+
+.card-propuesta {
+    padding: 40px;
+}
+
+.card-propuesta_title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.card-propuesta_descripcion {
+    font-size: 1.2em;
+    padding: 20px 70px;
+}
+
+/* nosotros */
+.nosotros.grid {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.nosotros__info {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nosotros__info header h2 {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.nosotros__info p {
+    text-align: left;
+    font-size: 1.1em;
+    color: #777;
+}
+
+.nosotros__contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nosotros__contacto p {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.nosotros__contacto a {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;;
+}
+
+.pre-heading {
+    text-align: center !important;
+    font-size: 1.2em !important;
+    text-transform: uppercase;
+    color: #ba5535 !important;
+    font-weight: 600 !important;
+}
+
+.nosotros__galeria {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    padding: 0 25px;
+}
+
+.nosotros__galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.nosotros__icono-llamada {
+    background-color: #ba5535;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+ /* footer */
+ .main-footer__lista-redes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}

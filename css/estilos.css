@@ -1,0 +1,174 @@
+/* Estilos generales */
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.7em;
+    margin: 0.5em 0;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+
+.ancho-maximo {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #ba5535;
+    padding: 10px;
+}
+
+.top-bar__contacto img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.top-bar__contacto {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.top-bar__contacto a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.top-bar__contacto a:hover {
+    background-color: #a94436;
+}
+
+.top-bar__redes img {
+    width: 15px;
+    height: 15px;
+}
+
+.top-bar__redes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.top-bar__redes li {
+    margin-right: 10px;
+}
+
+.menu-toggle {
+    width: fit-content;
+}
+
+.menu-toggle svg {
+    width: 20px;
+    height: 20px;
+    fill: #000;
+}
+
+.main-nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav__list li {
+    margin-right: 10px;
+}
+
+.main-nav__list a {
+    color: #000;
+    text-decoration: none;
+}
+
+.icono-busqueda {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    fill: #000;
+}
+
+/* Main header */
+.main-header {
+    background: url('../imagenes/fondo-footer.jpg') no-repeat center center/cover;
+}
+
+.main-header h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-header p {
+    color: #fff;
+    text-align: center;
+}
+
+.main-header a {
+    display: inline-block;
+    background-color: #ba5535;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.main-header a:hover {
+    background-color: #a94436;
+}
+
+/* Propuestas */
+.propuestas__header {
+    background-color: #111010;
+    padding: 20px;
+    text-align: center;
+}
+
+.propuestas__header h2 {
+    color: #f0eaea;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.propuestas__header p {
+    color: #ba5535;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.propuestas__header figure img {
+   width: 80%;
+}
+ 

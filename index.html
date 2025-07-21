@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- fuentes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- reset navegadores -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- mediaqueries para adaptar a pantallas más grandes -->
+    <link rel="stylesheet" href="css/mediaqueries.css">
+     
+
+</head>
+
+<body>
+    <!-- ocultamos en mobile esta top-bar -->
+    <div class="top-bar">
+        <div class="ancho-maximo grid">
+            <ul class="top-bar__contacto grid">
+                <li>
+                    <img src="imagenes/location-dot-solid.svg" alt=""> <a href="#">Calle Almansa 156. 28909 Madrid. España"></a>
+                </li>
+
+                <li>
+                    <img src="imagenes/icono-llamada.svg" alt=""><a href="tel:91445666">91 445 666 </a>
+                </li>
+
+                <li>
+                    <img src="imagenes/icono-envelope-oregular.svg" alt=""><a href="#">info@poket.com</a>
+                </li>
+            </ul>
+
+            <ul class="top-bar__redes grid">
+                <li>
+                    <a href="#"><img src="imagenes/facebook-f.svg" alt="Ir a Facebook de Pocket"></a>
+                </li>
+
+                <li>
+                    <a href="#"><img src="imagenes/twitter.svg" alt="Ir a Twitter de Pocket"></a>
+                </li>
+
+                <li>
+                    <a href="#"><img src="imagenes/youtube.svg" alt="Ir a YouTube de Pocket"></a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <nav class="main-nav">
+
+        <div class="ancho-maximo grid">
+            <div class="main-nav__logo">
+                <a href="#">
+                    <img src="imagenes/logo-01.png" alt="logotipo Pocket">
+                </a>
+            </div>
+
+            <ul class="main-nav__list grid">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#">Servicio</a>
+                </li>
+
+                <li>
+                    <a href="#">Proyectos</a>
+                </li>
+
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+
+                <li>
+                    <button>
+                        <img class="icono-busqueda" src="imagenes/icono-busqueda.svg" alt="">
+                    </button>
+                </li>
+            </ul>
+            <button class="menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </button>
+
+        </div>
+    </nav>
+
+
+    <header class="main-header">
+        <div class="ancho-maximo">
+            <h1 class="main-header__title">Diseño, construcción <span class="text-nowrap"> y decoración</span></h1>
+            <p class="main-header__slogan">"Expertos en interiorismo, construcción integral y paisajismo para proyectos residenciales y comerciales</p>
+
+            <a class="boton-cta" href="#">Presupuesto</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- sección propuestas -->
+        <section class="propuestas">
+            <header class="propuestas__header">
+                <div class="ancho-maximo">
+                    <div>
+                        <p class="pre-heading">
+                            Nuestras propuestas
+                        </p>
+
+                        <h2>
+                            Combinar arquitectura e interiorismo
+                        </h2>
+                    </div>
+
+                    <div>
+                        <figure>
+                            <img src="imagenes/interior.webp" alt="Decoración interior">
+                        </figure>
+                    </div>
+                </div>
+            </header>
+
+            <!-- propuestas ******************************* -->
+            <div class="propuestas-container grid ancho-maximo">
+                <!-- propuesta 1 -->
+                <div class="card-propuesta">
+                    <img class="card-propuesta_icon" src="imagenes/icono-arquitectura.png" alt="">
+                    <h3 class="card-propuesta_title">Construcción</h3>
+                    <p class="card-propuesta_descripcion">Construcción y Reformas Integrales. Proyectos sólidos de obra nueva, reformas y rehabilitaciones en Madrid. Calidad, eficiencia y tu visión hecha realidad</p>
+                </div>
+
+                <!-- propuesta 2 -->
+                <div class="card-propuesta">
+                    <img class="card-propuesta_icon" src="imagenes/icono-decoracion.png" alt="">
+                    <h3 class="card-propuesta_title">Decoración</h3>
+                    <p class="card-propuesta_descripcion">Decoración y estilismo de interiores. Creamos ambientes únicos con mobiliario, iluminación y textiles. Tu estilo, nuestra pasión, para un espacio que te encante</p>
+                </div>
+
+                <!-- propuesta 3 -->
+                <div class="card-propuesta">
+                    <img class="card-propuesta_icon" src="imagenes/icono-paisajismo.png" alt="">
+                    <h3 class="card-propuesta_title">Paisajismo</h3>
+                    <p class="card-propuesta_descripcion">Diseño y construcción de paisajes. Creamos jardines y exteriores armoniosos. Desde el diseño conceptual hasta la ejecución, transformamos tus espacios al aire libre</p>
+                </div>
+
+                <!-- propuesta 4 -->
+                <div class="card-propuesta">
+                    <img class="card-propuesta_icon" src="imagenes/icono-desarrollo.png" alt="">
+                    <h3 class="card-propuesta_title">Desarrollo</h3>
+                    <p class="card-propuesta_descripcion">Desarrollo de Proyectos Integrales. Gestionamos tu visión desde el concepto hasta la entrega, incluyendo diseño, planificación, licencias y construcción en Madrid</p>
+                </div>
+
+            </div> 
+        </section>
+
+        <!-- sección nosotros -->
+        <section class="nosotros grid ancho-maximo ">
+            <div class="nosotros__info">
+                <header>
+                    <p class="pre-heading">Sobre nosotros</p>
+                    <h2>Nuestra pasión: Diseñar y construir espacios</h2>
+                </header>
+
+                <p class="nosotros__detalle">Nacimos de la <strong>pasión por transformar espacios</strong>, hace más de 15 años, cuando un arquitecto y una diseñadora de interiores unieron visiones. Desde entonces, hemos materializado sueños, creando entornos donde la estética y la funcionalidad se fusionan.</p>
+
+                <p class="nosotros__detalle">Cada proyecto es una nueva historia, una oportunidad para innovar y superar expectativas, respaldados por <strong>años de experiencia</strong> y un equipo multidisciplinar.</p>
+
+
+                <div class="nosotros__contacto">
+
+                    <!-- icono teléfono -->
+                    <img class="nosotros__icono-llamada" src="imagenes/icono-llamada.svg" alt="">
+
+                    <!-- numero teléfono -->
+
+                    <p>
+                        Llámanos y solicita información
+                    </p>
+
+                    <a class="nosotros__tel" href="tel:91445666">91 445 666</a>
+
+                </div>
+
+            </div>
+
+            <div class="nosotros__galeria grid">
+                <a href="#"><img src="imagenes/casa1.jpg" alt="bla bla"></a>
+                <a href="#"><img src="imagenes/casa2.jpg" alt="bla bla"></a>
+                <a href="#"><img src="imagenes/casa3.jpg" alt="bla bla"></a>
+                <a href="#"><img src="imagenes/casa4.jpg" alt="bla bla"></a>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- FOOTER principal -->
+    <footer class="main-footer">
+        <!-- zona superior del footer ****************************** -->
+        <div class="main-footer__top-bar">
+            <div class="ancho-maximo grid">
+                <!-- logo, descripción y redes -->
+                <div class="main-footer__redes">
+                    <img class="main-footer__logo" src="imagenes/logo-blanco.png" alt="logotipo de Pocket">
+
+                    <ul class="main-footer__lista-redes grid">
+                        <li>
+                            <a href="#"><img src="imagenes/facebook-f.svg" alt="Ir a Facebook de  Pocket"></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><img src="imagenes/twitter.svg" alt="Ir a Twitter de Pocket"></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><img src="imagenes/youtube.svg" alt="Ir a YouTube de Pocket"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- nuestros servicios -->
+                <div class="main-footer__servicios">
+                    <h2>Nuestros servicios</h2>
+                    <ul>
+                        <li>- Diseño arquitectónico</li>
+                        <li>- Decoración</li>
+                        <li>- Interiorismo</li>
+                        <li>- Paisajismo</li>
+                        <li>- Desarrollo de proyectos</li>
+                    </ul>
+                </div>
+
+                <!-- contacta con nosotros -->
+                <div class="main-footer__contacto">
+                    <h2>Contacta con nosotros</h2>
+                    <!-- coloco el h2 fuera del address porque el título no forma parte del contacto -->
+                    <address>
+
+                        <p>
+                            Calle Almansa 156. 28909 Madrid. España
+                        </p>
+
+                        <p>
+                            <img src="imagenes/icono-llamada.svg" alt="">
+                            <a href="tel:91445666">91 445 666</a>
+                        </p>
+
+                        <p>
+                            <img src="imagenes/icono-envelope-oregular.svg" alt="">
+                            <a href="mailto:info@poket.com">info@poket.com</a>
+
+                        </p>
+                    </address>
+
+                </div>
+            </div>
+        </div> <!-- FIN zona superior del footer -->
+
+        <!-- zona inferior del footer ************************* -->
+        <div class="main-footer__bottom-bar">
+            <div class="ancho-maximo">
+
+                <p class="main-footer__copyright"> Copyright &copy; Poket Estudio de Diseño.</p>
+
+                <ul class="main-footer__list flex">
+                    <li>
+                        <a href="#">Nosotros</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Presupuestos</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Legal</a>
+                    </li>
+ 
+                </ul>
+
+
+            </div>
+        </div> <!-- FIN zona inferior del footer -->
+
+    </footer>
+
+</body>
+
+</html>

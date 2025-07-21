@@ -1,0 +1,33 @@
+/* media queries para móvil */
+@media screen and (max-width: 920px) {
+    .top-bar {
+        display: none;
+    }
+
+    .main-nav__list {
+        display: none;
+    }
+
+    .main-nav div:first-child {
+        grid-auto-flow: column;
+        margin: 0 10px 0 10px;
+    }
+
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 400px;
+    }
+
+    .propuestas__header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    }
+}

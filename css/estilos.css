@@ -56,6 +56,7 @@ p {
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: end;
 }
 
 .top-bar__contacto a {
@@ -272,6 +273,11 @@ p {
     padding: 10px;
 }
 
+.nosotros__galeria a {
+    position: relative;
+    text-decoration: none;
+}
+
 .nosotros__galeria a::before {
   content: "+";
   position: absolute;
@@ -282,18 +288,113 @@ p {
   height: 24px;
   background: #fff;
   border-radius: 50%;
-  font-size: 18px;
   pointer-events: none;
-  /* top: 142px; */
-  /* left: 169px; */
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #000;
+  padding: 0 0 2px 0;
 }
 
 
  /* footer */
+ .main-footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/fondo-footer.jpg') no-repeat center center/cover;
+    color: #f0eaea;
+    padding: 20px 0;
+    text-align: center;
+}
+
  .main-footer__lista-redes {
+    margin: 0;
+    grid-template-columns: repeat(3, 60px);
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.main-footer__lista-redes li {
+    list-style: none;
+    margin: 0 10px;
+    /* align-self: center; */
+}
+.main-footer__lista-redes li a img {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+
+.main-footer__servicios ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.main-footer__servicios ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.main-footer__contacto h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.main-footer__contacto address p img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+} 
+
+.main-footer__contacto address p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-footer__bottom-bar {
+    background-color: #111010;
+    padding: 10px 0;
+    color: #fff;
+    margin: 20px 0 -20px;
+}
+
+.main-footer__list {
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-footer__list li {
+    position: relative;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.main-footer__list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+.main-footer__list li a::before {
+    content: '|';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #eceae9;
+    bottom: 20px;
+    left: -20px;
 }
